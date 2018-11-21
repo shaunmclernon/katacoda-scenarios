@@ -1,5 +1,3 @@
-In this scenario you'll learn how to bootstrap a Kubernetes cluster using Kubeadm.
+In this hands-on scenario, you will learn the basic concepts of Kubernetes. You will do that through interacting with Kubernetes through the command line terminals on the right.
 
-Kubeadm solves the problem of handling TLS encryption configuration, deploying the core Kubernetes components and ensuring that additional nodes can easily join the cluster. The resulting cluster is secured out of the box via mechanisms such as RBAC.
-
-More details on Kubeadm can be found at https://github.com/kubernetes/kubeadm
+Ultimately you will deploy the sample applications [Dockercoins](https://github.com/dockersamples/dockercoins) on both worker nodes.
