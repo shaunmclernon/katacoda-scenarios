@@ -5,7 +5,7 @@
   "time": "10-15 minutes",
   "details": {
     "steps": [
-      { "title": "Title", "text": "step1.md" },
+      { "title": "Step 1 - Initialise Master", "text": "step1.md" },
       { "title": "Goes", "text": "step2.md" },
       { "title": "Here", "text": "step3.md" }
     ],
