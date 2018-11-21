@@ -2,7 +2,7 @@
   "title": "Kubernetes 101",
   "description": "A basic tour of kubernetes",
   "difficulty": "beginner",
-  "time": "10-15 mniutes",
+  "time": "10-15 minutes",
   "details": {
     "steps": [
       { "title": "Title", "text": "step1.md" },
