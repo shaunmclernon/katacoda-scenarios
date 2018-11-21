@@ -1,6 +1,6 @@
 {
-  "title": "My First Scenario",
-  "description": "Learning how to educate via Katacoda",
+  "title": "Kubernetes 101",
+  "description": "A basic tour of kubernetes",
   "details": {
     "steps": [
       { "title": "Title", "text": "step1.md" },
