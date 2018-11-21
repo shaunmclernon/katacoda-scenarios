@@ -8,6 +8,10 @@ The command below will initialise the cluster with a known token to simplify the
 
 To manage the Kubernetes cluster, the client configuration and certificates are required. This configuration is created when kubeadm initialises the cluster. The command copies the configuration to the users home directory and sets the environment variable for use with the CLI.
 
-`sudo cp /etc/kubernetes/admin.conf $HOME/
-sudo chown $(id -u):$(id -g) $HOME/admin.conf
-export KUBECONFIG=$HOME/admin.conf`{{execute}}
+`export KUBECONFIG=/etc/kubernetes/admin.conf`{{execute}}
+
+Verify master is ready.
+
+`kubectl get nodes`{{execute}}
+
+Reference: https://kubernetes.io/docs/setup/independent/create-cluster-kubeadm/
