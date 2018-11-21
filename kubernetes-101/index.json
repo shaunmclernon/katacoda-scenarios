@@ -19,7 +19,8 @@
     }
   },
   "environment": {
-    "uilayout": "terminal-terminal"
+    "uilayout": "terminal-terminal",
+    "icon": "fa-kubernetes"
   },
   "backend": {
     "imageid": "kubernetes-cluster"

@@ -6,8 +6,6 @@ The command below will initialise the cluster with a known token to simplify the
 
 `kubeadm init --apiserver-advertise-address $(hostname -i)`{{execute}}
 
-In production, it's recommend to exclude the token causing kubeadm to generate one on your behalf.
-
 To manage the Kubernetes cluster, the client configuration and certificates are required. This configuration is created when kubeadm initialises the cluster. The command copies the configuration to the users home directory and sets the environment variable for use with the CLI.
 
 `sudo cp /etc/kubernetes/admin.conf $HOME/
