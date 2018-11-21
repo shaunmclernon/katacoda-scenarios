@@ -1,1 +1,1 @@
-kubeadm config images pull
+ssh root@master "kubeadm config images pull"
