@@ -14,7 +14,12 @@
       { "title": "Step 1 - Initialise Master", "text": "step1.md" },
       { "title": "Step 2 - Join Cluster", "text": "step2.md" },
       { "title": "Step 3 - View nodes", "text": "step3.md" },
-      { "title": "Step 4 - Deploy Container Networking Interface (CNI)", "text": "step4.md" }
+      { "title": "Step 4 - Deploy Container Networking Interface (CNI)", "text": "step4.md" },
+      { "title": "Step 5 - Verify cluster",
+        "text": "step5.md",
+        "verify": "step5-verify.sh",
+        "answer": "step5-answer.md"
+      }
     ],
     "finish": {
       "text": "finish.md"
