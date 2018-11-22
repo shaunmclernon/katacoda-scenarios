@@ -1,4 +1,4 @@
-The first stage of initialising the cluster is to launch the master node. The master is responsible for running the control plane components, etcd and the API server. Clients will communicate to the API to schedule workloads and manage the state of the cluster.
+The first stage of initialising the cluster is to launch the master node.  The master is the responsible for running the control plane components run, including etcd (the cluster database) and the API server (which the kubectl CLI communicates with).
 
 ## Task
 
