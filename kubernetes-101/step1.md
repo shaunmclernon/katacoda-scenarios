@@ -10,8 +10,12 @@ To manage the Kubernetes cluster, the client configuration and certificates are 
 
 `export KUBECONFIG=/etc/kubernetes/admin.conf`{{execute}}
 
-Verify master is ready.
+Verify master node is ready by inspecting the nodes in the cluster.
 
 `kubectl get nodes`{{execute}}
+
+If the node is marked as *NotReady* then it is still starting the components.
+
+This command shows all nodes that can be used to host our applications. Now we have only one node, and we can see that it’s status is ready (it is ready to accept applications for deployment).
 
 Reference: https://kubernetes.io/docs/setup/independent/create-cluster-kubeadm/
