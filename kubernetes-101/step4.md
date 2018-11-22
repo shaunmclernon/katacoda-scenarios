@@ -1,7 +1,9 @@
 You must install a pod network add-on so that your pods can communicate with each other. The network must be deployed before any applications. Also, CoreDNS will not start up before a network is installed. kubeadm only supports Container Network Interface (CNI) based networks (and does not support kubenet).
 
-Run "kubectl apply -f [podnetwork].yaml" with one of the options listed at:
-  https://kubernetes.io/docs/concepts/cluster-administration/addons/
+## Task
+
+Run "`kubectl apply -f [podnetwork].yaml`" with one of the options listed at:
+https://kubernetes.io/docs/concepts/cluster-administration/addons/
 
 Several projects provide Kubernetes pod networks using CNI, some of which also support Network Policy. See the add-ons page for a complete list of available network add-ons. - IPv6 support was added in CNI v0.6.0. - CNI bridge and local-ipam are the only supported IPv6 network plugins in Kubernetes version 1.9.
 
