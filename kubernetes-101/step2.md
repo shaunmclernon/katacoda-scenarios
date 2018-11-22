@@ -5,7 +5,7 @@ On the second node, run the command to join the cluster providing the IP address
 
 It will look something like this;
 
-`kubeadm join 172.17.0.16:6443 --token 102952.1a7dd4cc8d1f4cc5 --discovery-token-ca-cert-hash sha256:cb539695e3925e00ab6fae8f04074e956ad7f4c0d071f0b5ef5d395d67c7c936`
+`kubeadm join 172.17.0.16:6443 --token 102952.1a7dd4cc8d1f4cc5 --discovery-token-ca-cert-hash sha256:cb539695e3925e00ab6fae8f04074e956ad7f4c0d071f0b5ef5d395d67c7c936`{{copy}}
 
 This is the same command provided after the Master has been initialised.
 
