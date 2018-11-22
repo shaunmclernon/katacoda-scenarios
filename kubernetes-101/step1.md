@@ -4,7 +4,7 @@ The first stage of initialising the cluster is to launch the master node. The ma
 
 The command below will initialise the cluster with a known token to simplify the following steps.
 
-`kubeadm init --apiserver-advertise-address $(hostname -i)`{{execute}}
+`kubeadm init --apiserver-advertise-address=$(hostname -i)`{{execute}}
 
 To manage the Kubernetes cluster, the client configuration and certificates are required. This configuration is created when kubeadm initialises the cluster. The command copies the configuration to the users home directory and sets the environment variable for use with the CLI.
 
