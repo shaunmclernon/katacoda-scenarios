@@ -1,1 +1,1 @@
-(( $(kubectl get nodes 2>/dev/null | wc -l) == 3 )) && echo \"done\"
+(( $(kubectl get nodes 2>/dev/null | grep "Ready" | wc -l) == 2 )) && echo \"done\"
