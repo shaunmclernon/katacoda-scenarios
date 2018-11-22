@@ -1,2 +1,1 @@
-git init
-```{{execute}}
+`kubectl get nodes`{{execute}}

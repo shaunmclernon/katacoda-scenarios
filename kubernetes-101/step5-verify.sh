@@ -1,1 +1,1 @@
-[ -d /home/scrapbook/tutorial/.git ] && echo "done"
+($(kubectl get nodes)) && echo \"done\"
