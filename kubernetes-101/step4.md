@@ -2,8 +2,7 @@ You must install a pod network add-on so that your pods can communicate with eac
 
 ## Task
 
-Run "`kubectl apply -f [podnetwork].yaml`" with one of the options listed at:
-https://kubernetes.io/docs/concepts/cluster-administration/addons/
+Run "`kubectl apply -f [podnetwork].yaml`" with one of the options listed in the addons reference link below:
 
 Several projects provide Kubernetes pod networks using CNI, some of which also support Network Policy. See the add-ons page for a complete list of available network add-ons. - IPv6 support was added in CNI v0.6.0. - CNI bridge and local-ipam are the only supported IPv6 network plugins in Kubernetes version 1.9.
 
@@ -13,3 +12,7 @@ You can install a pod network add-on with the following command:
 Example to deploy flannel;
 
 `kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/bc79dd1505b0c8681ece4de4c0d86c5cd2643275/Documentation/kube-flannel.yml`{{execute HOST1}}
+
+## Reference
+
+https://kubernetes.io/docs/concepts/cluster-administration/addons/
