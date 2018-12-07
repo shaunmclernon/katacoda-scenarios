@@ -26,7 +26,7 @@
     },
     "assets": {
       "host01": [
-        { "file": "dashboard.yaml", "target": "/root" }
+        { "file": "dashboard.yml", "target": "/root" }
       ]
     }
   },
