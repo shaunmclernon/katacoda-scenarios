@@ -10,4 +10,6 @@ To manage the Kubernetes cluster, the client configuration and certificates are 
 
 `export KUBECONFIG=/etc/kubernetes/admin.conf`{{execute HOST1}}
 
-Reference: https://kubernetes.io/docs/setup/independent/create-cluster-kubeadm/
+## Reference
+
+https://kubernetes.io/docs/setup/independent/create-cluster-kubeadm/

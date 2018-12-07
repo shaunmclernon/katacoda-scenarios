@@ -17,10 +17,9 @@
       { "title": "Step 3 - View nodes", "text": "step3.md" },
       { "title": "Step 4 - Deploy Container Networking Interface (CNI)", "text": "step4.md" },
       { "title": "Step 5 - Verify cluster",
-        "text": "step5.md",
-        "verify": "step5-verify.sh"
+        "text": "step5.md"
       },
-      { "title": "Step 6 - tbc", "text": "step6.md" }
+      { "title": "Step 6 - Install dashboard", "text": "step6.md" }
     ],
     "finish": {
       "text": "finish.md"
