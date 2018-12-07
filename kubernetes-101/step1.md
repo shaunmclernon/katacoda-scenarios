@@ -12,11 +12,11 @@ To manage the Kubernetes cluster, the client configuration and certificates are 
 
 Check component status to verify master services are working.
 
-`kubectl get componentstatuses` or you can use the alias `kubectl get cs`
+`kubectl get componentstatuses`{{execute HOST1}} or you can use the alias `kubectl get cs`
 
 We can also check the cluster info.
 
-`kubectl cluster-info`
+`kubectl cluster-info`{{execute HOST1}}
 
 ## Reference
 
