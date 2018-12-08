@@ -1,7 +1,6 @@
-Once Users must run the command `kubectl get nodes`{{execute}} before they can proceed to step 2. The verify script is a bash command. If the user can proceed the script should output "done" with exit code 0.
+Now that the networking has been installed we can verify that the cluster is ready. View the nodes `kubectl get nodes` and when the `STATUS` column shows as `Ready`, its good to go.
 
-A solution button available if users require help in order to proceed. The text is loaded from step5-answer.md.
-
+Example:
 ```
 kubectl get nodes
 NAME      STATUS    ROLES     AGE       VERSION
