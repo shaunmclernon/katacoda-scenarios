@@ -12,14 +12,14 @@
       "credits": "Dockercoins was originally used in Jérôme Petazzoni's orchestration workshop - https://github.com/jpetazzo/container.training"
     },
     "steps": [
-      { "title": "Step 1 - Initialise master", "text": "step1.md" },
-      { "title": "Step 2 - Initalise worker", "text": "step2.md" },
-      { "title": "Step 3 - View nodes", "text": "step3.md" },
-      { "title": "Step 4 - Deploy Container Networking Interface (CNI)", "text": "step4.md" },
+      { "title": "Step 1 - Initialise master", "text": "step-master.md" },
+      { "title": "Step 2 - Initalise worker", "text": "step-worker.md" },
+      { "title": "Step 3 - View nodes", "text": "step-nodes.md" },
+      { "title": "Step 4 - Deploy Container Networking Interface (CNI)", "text": "step-networking.md" },
       { "title": "Step 5 - Verify cluster",
-        "text": "step5.md"
+        "text": "step-verify.md"
       },
-      { "title": "Step 6 - Install dashboard", "text": "step6.md" }
+      { "title": "Step 6 - Install dashboard", "text": "step-dashboard.md" }
     ],
     "finish": {
       "text": "finish.md"
