@@ -1,6 +1,4 @@
-## Dashboard install
-
-Dashboard is a web-based Kubernetes user interface.
+Dashboard is a web-based Kubernetes user interface. All this information can be derived using `kubectl` as well.
 
 **WARNING:** If you deploy the dashboard into your cluster, make sure that it is locked down.
 
