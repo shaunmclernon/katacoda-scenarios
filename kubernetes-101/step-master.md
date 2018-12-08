@@ -2,9 +2,11 @@ The first stage of initialising the cluster is to launch the master node.  The m
 
 ## Task
 
-The command below will initialise the cluster with a known token to simplify the following steps.
+In this case we are using `kubeadm` which will create a minimum viable Kubernetes cluster that conforms to the Kubernetes Conformance tests.
 
 `kubeadm init --apiserver-advertise-address=$(hostname -i)`{{execute HOST1}}
+
+`kubeadm init --token=102952.1a7dd4cc8d1f4cc5`{{execute HOST1}}
 
 ## Reference
 
