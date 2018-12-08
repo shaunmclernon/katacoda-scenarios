@@ -1,4 +1,4 @@
-Now that the networking has been installed we can verify that the cluster is ready. View the nodes `kubectl get nodes` and when the `STATUS` column shows as `Ready`, its good to go.
+Now that the networking has been installed we can verify that the cluster is ready. View the nodes `kubectl get nodes`{{execute HOST1}} and when the `STATUS` column shows as `Ready`, its good to go.
 
 Example:
 ```
