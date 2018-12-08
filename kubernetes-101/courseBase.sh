@@ -1,1 +1,7 @@
-ssh root@[[HOST1_IP]] "kubeadm config images pull"
+ssh root@[[HOST1_IP]] "docker pull k8s.gcr.io/kube-apiserver-amd64:v1.11.5"
+ssh root@[[HOST1_IP]] "docker pull k8s.gcr.io/kube-controller-manager-amd64:v1.11.5"
+ssh root@[[HOST1_IP]] "docker pull k8s.gcr.io/kube-scheduler-amd64:v1.11.5"
+ssh root@[[HOST1_IP]] "docker pull k8s.gcr.io/kube-proxy-amd64:v1.11.5"
+ssh root@[[HOST1_IP]] "docker pull k8s.gcr.io/pause:3.1"
+ssh root@[[HOST1_IP]] "docker pull k8s.gcr.io/etcd-amd64:3.2.18"
+ssh root@[[HOST1_IP]] "docker pull k8s.gcr.io/coredns:1.1.3"
