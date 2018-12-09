@@ -13,7 +13,7 @@
     },
     "steps": [
       { "title": "Step 1 - Initialise master", "text": "step-master.md" },
-      { "title": "Step 2 - Configure kube context", "text": "step-kubectl.md" },
+      { "title": "Step 2 - kubectl", "text": "step-kubectl.md" },
       { "title": "Step 3 - Initalise worker", "text": "step-worker.md" },
       { "title": "Step 4 - View nodes", "text": "step-nodes.md" },
       { "title": "Step 5 - Deploy Container Networking Interface (CNI)", "text": "step-networking.md" },

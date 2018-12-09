@@ -1,10 +1,14 @@
-To manage the Kubernetes cluster, the client configuration and certificates are required. This configuration is created when kubeadm initialises the cluster. The command copies the configuration to the users home directory and sets the environment variable for use with the CLI.
+To manage the Kubernetes cluster, the client configuration and certificates are required. This configuration is created when `kubeadm` initialises the cluster. 
 
 ## Task
 
-Export the kube context so that `kubectl` can issue commands to the API server.
+So lets copy the configuration to the users home directory and set the environment variable so that `kubectl` can issue commands to the API server.
 
 `export KUBECONFIG=/etc/kubernetes/admin.conf`{{execute HOST1}}
+
+`sudo cp /etc/kubernetes/admin.conf $HOME/
+sudo chown $(id -u):$(id -g) $HOME/admin.conf
+export KUBECONFIG=$HOME/admin.conf`{{execute HOST1}}
 
 ## Verify
 
@@ -15,3 +19,7 @@ Check component status to verify master services are working.
 We can also check the cluster info.
 
 `kubectl cluster-info`{{execute HOST1}}
+
+## Reference
+
+https://kubernetes.io/docs/tasks/tools/install-kubectl/
