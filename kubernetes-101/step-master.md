@@ -4,9 +4,11 @@ The first stage of initialising the cluster is to launch the master node.  The m
 
 In this case we are using `kubeadm` which will create a minimum viable Kubernetes cluster that conforms to the Kubernetes Conformance tests.
 
-`kubeadm init --token=7kpa7x.aqxooruii28hg8yk --kubernetes-version $(kubeadm version -o short)`
+`kubeadm init --token=7kpa7x.aqxooruii28hg8yk --kubernetes-version $(kubeadm version -o short)`{{execute HOST1}}
 
 In order to automate, this scenario, a pre-determined token is being used. However, in production, it's recommended to exclude the token causing kubeadm to generate one on your behalf. So, you would use something like below;
+
+**Example:**
 
 `kubeadm init --apiserver-advertise-address=$(hostname -i)`
 
