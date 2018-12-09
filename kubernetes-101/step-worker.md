@@ -6,7 +6,7 @@ So on the second host, run the command to join the cluster providing the IP addr
 
 It will look something like this;
 
-`kubeadm join --discovery-token-unsafe-skip-ca-verification --token=7kpa7x.aqxooruii28hg8yk 172.17.0.82:6443`{{execute HOST2}}
+`kubeadm join --token=7kpa7x.aqxooruii28hg8yk --discovery-token-unsafe-skip-ca-verification [[HOST_IP]]:6443`{{execute HOST2}}
 
 ### Note
 
