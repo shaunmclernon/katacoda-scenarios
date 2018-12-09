@@ -16,10 +16,8 @@
       { "title": "Step 2 - kubectl", "text": "step-kubectl.md" },
       { "title": "Step 3 - Initalise worker", "text": "step-worker.md" },
       { "title": "Step 4 - View nodes", "text": "step-nodes.md" },
-      { "title": "Step 5 - Deploy Container Networking Interface (CNI)", "text": "step-networking.md" },
-      { "title": "Step 6 - Verify cluster",
-        "text": "step-verify.md"
-      },
+      { "title": "Step 5 - Deploy networking", "text": "step-networking.md" },
+      { "title": "Step 6 - Verify cluster", "text": "step-verify.md" },
       { "title": "Step 7 - Install dashboard", "text": "step-dashboard.md" }
     ],
     "finish": {
@@ -33,7 +31,7 @@
   },
   "environment": {
     "showdashboard": true,
-    "dashboards": [{"name": "Dashboard", "port": 9090}, {"name": "Tab Name", "port": 8080}],
+    "dashboards": [{"name": "Dashboard", "port": 30000}, {"name": "Tab Name", "port": 8080}],
     "uilayout": "terminal-terminal",
     "uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n"
   },
