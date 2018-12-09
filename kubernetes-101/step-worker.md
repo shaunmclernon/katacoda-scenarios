@@ -1,15 +1,17 @@
-Once the master has initialised, additional nodes can join the cluster as long as they have the correct token. The tokens can be managed via kubeadm token, for example `kubeadm token list`{{execute}}.
+Now that the master has been initialised, lets add an additional node to the cluster. In order to do that we need to supply a correct token. Tokens can be managed via `kubeadm` token, for example `kubeadm token list`{{execute}}.
 
 ## Task
 
-On the second host, run the command to join the cluster providing the IP address of the master node.
+So on the second host, run the command to join the cluster providing the IP address of the master node.
 
 It will look something like this;
 
-`kubeadm join 172.17.0.16:6443 --token 102952.1a7dd4cc8d1f4cc5 --discovery-token-ca-cert-hash sha256:cb539695e3925e00ab6fae8f04074e956ad7f4c0d071f0b5ef5d395d67c7c936`{{copy}}
+`kubeadm join --discovery-token-unsafe-skip-ca-verification --token=7kpa7x.aqxooruii28hg8yk 172.17.0.82:6443`{{execute HOST1}}
 
-`kubeadm join --token=102952.1a7dd4cc8d1f4cc5 172.17.0.16:6443`{{execute HOST1}}
+### Note
 
-This is the same command provided after the master has been initialised.
+In this case the `--discovery-token-unsafe-skip-ca-verification` tag is used to bypass the Discovery Token verification, purely for the purposes of automating this scenario (due to the token being generated dynamically). If using on real machines, it is recommended to use the token provided by the `kubeadm` init step.
 
-<!-- The --discovery-token-unsafe-skip-ca-verification tag is used to bypass the Discovery Token verification. As this token is generated dynamically, we couldn't include it within the steps. When in production, use the token provided by kubeadm init. -->
+**Example:**
+
+`kubeadm join 172.17.0.16:6443 --token 102952.1a7dd4cc8d1f4cc5 --discovery-token-ca-cert-hash sha256:cb539695e3....d395d67c7c936`

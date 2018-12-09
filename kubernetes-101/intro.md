@@ -8,4 +8,4 @@ In this hands-on scenario, you will learn the basic concepts of Kubernetes.
 
 ### Note
 
-To speed things up, this scenario will start with two Ubuntu machines provisioned and `kubeadm` and `kubectl` have already installed. References links have been provided at the bottom of each section to provide further details.
+To speed things up, this scenario will start with two Ubuntu machines provisioned and `kubeadm` and `kubectl` have already been installed. References links have been provided at the bottom of each section to provide further details.
