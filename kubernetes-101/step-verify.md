@@ -1,4 +1,6 @@
-Now that the networking has been installed we can verify that the cluster is ready. View the nodes `kubectl get nodes`{{execute HOST1}} and when the `STATUS` column shows as `Ready`, its good to go.
+Now that the networking has been installed we can verify that the cluster is ready. View the nodes `kubectl get nodes`{{execute HOST1}}.
+
+When the state of the two nodes in the cluster is shown as `Ready`. This means that our deployments can be scheduled and launched.
 
 Example:
 ```
