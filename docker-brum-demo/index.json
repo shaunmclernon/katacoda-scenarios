@@ -1,8 +1,8 @@
 {
     "pathwayTitle": "Kubernetes",
     "icon": "fa-kubernetes",
-    "title": "Docker from the ground up - Kubernetes Demo",
-    "description": "Demos presented at the Birmingham Docker meetup on Wed 12th December 2018.",
+    "title": "Kubernetes Demo",
+    "description": "Demos presented at the Birmingham Docker meetup as the \"Docker from the ground up\" series on Wed 12th December 2018.",
     "details": {
         "steps": [
             {
