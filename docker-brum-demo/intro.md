@@ -1,4 +1,4 @@
-This is a Kubernetes playground. From here you can play with a Kubernetes host and explore it's API.
+Kubernetes demos, as part of the Docker Birmingham meetup series "Docker from the ground up.
 
 #### What are playgrounds?
 
