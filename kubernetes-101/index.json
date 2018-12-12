@@ -8,8 +8,7 @@
   "details": {
     "intro": {
       "text": "intro.md",
-      "courseData": "courseBase.sh",
-      "credits": "Dockercoins was originally used in Jérôme Petazzoni's orchestration workshop - https://github.com/jpetazzo/container.training"
+      "courseData": "courseBase.sh"
     },
     "steps": [
       { "title": "Step 1 - Initialise master", "text": "step-master.md" },
