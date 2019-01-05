@@ -2,11 +2,13 @@
   "icon": "fa-docker",
   "title": "Jenkins Evergreen",
   "description": "Playground for building pipelines using Jenkins Evergreen",
+  "difficulty": "Intermediate",
+  "time": "10-15 minutes",
   "details": {
     "steps": [
       {
-        "title": "Step 1",
-        "text": "step1.md"
+        "title": "Step 1 - Starting Jenkins Evergreen",
+        "text": "step-jenkins-evergreen.md"
       },
       {
         "title": "Step 2",
